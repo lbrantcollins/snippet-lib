@@ -83,7 +83,7 @@
 + search for a topic by keyword and see all questions returned
 + click on a question and view all snippets/comments
 
-### use anonymous posting
+## use anonymous posting
 
 + employee posts/comments will be anonymous 
   + (user names hidden from employees)

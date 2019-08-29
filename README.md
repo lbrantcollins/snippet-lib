@@ -83,9 +83,9 @@
 + search for a topic by keyword and see all questions returned
 + click on a question and view all snippets/comments
 
-### allow anonymous posting
+### use anonymous posting
 
-+ employee posts/comments should be anonymous 
++ employee posts/comments will be anonymous 
   + (user names hidden from employees)
-+ manager's view will show employees on each code snippet and comment
++ manager's view will identify employees on each code snippet and comment
 

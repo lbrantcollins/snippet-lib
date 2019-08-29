@@ -64,27 +64,29 @@
 + edit their own comments
 + delete their own comments
 
-#### view their own posts
+#### view their own snippets
 
-+ view all their own posts with a view as follows:
+
++ first view an index of all their snippets
++ then, can view individual snippet with a view as follows:
   + display the challenge
   + view their own code snippet(s) for the challenge
   + view all comments associated with their snippet
     + manager comments
     + employee comments
     
-## managers and employees
+## managers and employees search
+
+### search by keyword(s) and/or language(s)
 
 #### view snippets by keyword(s) and/or language(s)
 
-+ search by keyword(s)/language(s)
-  + see an index of all related snippets (posted by anyone)
++ see an index of all related snippets (posted by anyone)
 + click on a snippet and view details (including the challenge info) 
 
 #### view challenges by keyword(s) and/or language(s)
 
-+ search keyword(s)/language(s)
-  + see an index of all relevant challenges 
++ see an index of all relevant challenges 
 + click on a challenge and view all questions/snippets/comments
 
 ## use anonymous posting

@@ -75,7 +75,7 @@
     + manager comments
     + employee comments
     
-## managers and employees search
+## Managers and employees can search
 
 ### search by keyword(s) and/or language(s)
 
@@ -89,7 +89,7 @@
 + see an index of all relevant challenges 
 + click on a challenge and view all questions/snippets/comments
 
-## use anonymous posting
+## Use anonymous posting
 
 + employee posts/comments will be anonymous 
   + (user names hidden from employees)

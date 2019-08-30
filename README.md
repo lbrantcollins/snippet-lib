@@ -1,15 +1,11 @@
 
 # COMP SCI 101: Code Challenge and Discussion Board
 
-Students will be asked to suggest solutions to fairly narrow questions:
+Students will be asked to suggest solutions to fairly narrow coding questions:
 
 + Given a list of dictionaries [data structure code supplied here], what python statements will count the number of people with at least one pet
 
 + Given an array or list of values, write JavaScript or python code to calculate the standard deviation of the values: [LaTeX formula for standard deviation goes here] 
-
-A student's participation grade will be a function of the number of code snippets (answers), questions (for clarification of the challenge), and comments (about code snippets) they post ...but, only if those posts are considered "substantive" by the teacher.
-
-participation = (#snippets * X) + (#comments * Y) + (#questions * Z)
 
 
 # User Stories
@@ -29,13 +25,15 @@ participation = (#snippets * X) + (#comments * Y) + (#questions * Z)
 
 #### Teacher: import a course roster
 
+The roster includes the university usernames that students must use when they register for an account
+
 #### Teacher: determine grading scheme
 
 A student's participation grade will be a function of the number of code snippets (answers), questions (for clarification of the challenge), and comments (about code snippets) they post ...but, only if those posts are considered "substantive" by the teacher.
 
 participation = (#snippets * X) + (#comments * Y) + (#questions * Z)
 
-can choose participation points for 
+Teacher can choose participation points for 
 
 + snippets (X points)
 + comments (Y points) 

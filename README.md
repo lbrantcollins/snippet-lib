@@ -3,25 +3,32 @@
 
 Students will be asked to suggest solutions to fairly narrow coding questions:
 
-+ Given a list of dictionaries [data structure code supplied here], what python statements will count the number of people with at least one pet
+1. Given a list of dictionaries [data structure code supplied here], what python statements will count the number of people with at least one pet
 
-+ Given an array or list of values, write JavaScript or python code to calculate the standard deviation of the values: [LaTeX formula for standard deviation goes here] 
+2. Given an array or list of values, write JavaScript or python code to calculate the standard deviation of the values: [LaTeX formula for standard deviation goes here] 
+
++ Multiple students can post a code snippet (answer).    
++ Snippets will be discussed (comments) by students and teacher.    
++ Students will earn participation points.     
 
 
 # User Stories
 
-## Teacher 
+### Teacher 
 
-### post coding challenges, moderate reponses
+#### post coding challenges, moderate reponses
 
 ...and obtain a report of each student's participation
 
-## Student
+### Student
 
-### search, question, answer, comment
+#### ask questions, answer challenges, comment, search
 
 ...and see their participation score
 
+
+
+## Site set-up
 
 #### Teacher: import a course roster
 
@@ -38,6 +45,10 @@ Teacher can choose participation points for
 + snippets (X points)
 + comments (Y points) 
 + questions (Z points)
+
+
+
+## The typical path of a coding challenge:
 
 #### Teacher: pose a challenge
 
@@ -129,6 +140,9 @@ The teacher will be pointed toward unread snippets and comments
     + teacher comments
     + student comments
 
+
+## Grading
+
 #### Teacher: get a participation report
 
 + obtain a report of listing participation info for each student
@@ -141,6 +155,9 @@ The teacher will be pointed toward unread snippets and comments
 + counts of (substantive) nippets, questions, and comments 
 + participation score based on the chosen grading scheme
 
+
+
+## Other
 
 #### Teacher: delete a posted challenge
 

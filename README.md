@@ -1,5 +1,5 @@
 
-# COMP SCI 101: Code Challenge and Discussion Board
+# COMP SCI 101: Participation and Discussion Board
 
 Students will be asked to suggest solutions to fairly narrow coding questions:
 
@@ -162,7 +162,6 @@ The teacher will be pointed toward unread snippets and comments
 #### Teacher: delete a posted challenge
 
 + likely this will be very rarely used, if ever
-
 + this deletes all student code snippets
 + this deletes all student comments/questions
 + teacher will be prompted to ask if they are absolutely sure of the delete

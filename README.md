@@ -1,13 +1,15 @@
 
-# CMSC 101 Code Challenge and Discussion Board
+# COMP SCI 101: Code Challenge and Discussion Board
 
 Students will be asked to suggest solutions to fairly narrow questions:
 
 + Given a list of dictionaries [data structure code supplied here], what python statements will count the number of people with at least one pet
 
-+ Given a list or array of values, write JavaScript or python code to calculate the standard deviation of the values: [LaTeX formula goes here] 
++ Given an array or list of values, write JavaScript or python code to calculate the standard deviation of the values: [LaTeX formula for standard deviation goes here] 
 
-Their participation grade will be a function of the number of code snippets (answers), questions (clarification of the challenge), and comments (about code snippets) they post ...if those posts are considered "substantive" by the teacher.
+A student's participation grade will be a function of the number of code snippets (answers), questions (for clarification of the challenge), and comments (about code snippets) they post ...but, only if those posts are considered "substantive" by the teacher.
+
+participation = (#snippets * X) + (#comments * Y) + (#questions * Z)
 
 
 # User Stories
@@ -18,32 +20,84 @@ Their participation grade will be a function of the number of code snippets (ans
 
 ...and obtain a report of each student's participation
 
-#### pose a challenge
+## Student
+
+### search, question, answer, comment
+
+...and see their participation score
+
+
+#### Teacher: import a course roster
+
+#### Teacher: determine grading scheme
+
+A student's participation grade will be a function of the number of code snippets (answers), questions (for clarification of the challenge), and comments (about code snippets) they post ...but, only if those posts are considered "substantive" by the teacher.
+
+participation = (#snippets * X) + (#comments * Y) + (#questions * Z)
+
+can choose participation points for 
+
++ snippets (X points)
++ comments (Y points) 
++ questions (Z points)
+
+#### Teacher: pose a challenge
 
 + post the challenge 
 + provide keywords to be used for convenience for later searches
 	+ teacher can add keywords 
-	+ (which will be saved for re-use in future posts)
+	+ (which will be saved for choosing again in future posts)
 + indicate which languages users will be limited to for responses
 	+ teacher can add languages
-	+ (which will be saved for re-use in future posts)
+	+ (which will be saved for choosing again in future posts)
 
-#### clarify the coding challenge
+#### Students: log in using their university email username
 
-+ edit the original challenge
++ the username must appear on the instructor's roster
+
+#### Student posts are anonymous (to other students)
+
++ student posts/comments will be anonymous 
+  + (student names hidden from other students)
++ teacher's view will identify students on each code question/snippet/comment
+
+#### Students: ask questions about the challenge
+
++ ask a question about the challenge 
++ view all other questions
++ edit their own question 
++ delete their own question
+
+#### Teacher: clarify the coding challenge
+
++ The teacher will be pointed toward any unread questions
++ can edit the original challenge
 + that is, respond to users questions about the challenge
 
-#### delete a posted challenge
+#### Students: answer a challenge
 
-+ likely this will be very rarely used, if ever
++ post a code snippet
++ indicate the language used
 
-+ this deletes all student code snippets
-+ this deletes all student comments/questions
-+ teacher will be prompted to ask if they are absolutely sure of the delete
+#### Students: comment on anyone's code snippet
 
-#### respond/moderate student code snippets and comments
++ post a comment about a specific code snippet
++ edit their own comments
++ delete their own comments
 
-The teacher will be presented with options to view any unread snippets, questions, or comments (to speed up the moderation process).
+#### Students: edit their own snippet
+
++ but, required to comment (hopefully, explaining the change)
+
+#### Students: delete their own snippet (if no comments attached)
+
++ cannot delete their own code snippets unless no comments have been posted
+
+#### Teacher: respond/moderate student code snippets and comments
+
+Well, the **Teaching Assistant** will probably moderate the student's posts!
+
+The teacher will be pointed toward unread snippets and comments
 
 + comment on student code snippets to help clarify/correct
 + append to a student comment to help clarify/correct
@@ -54,74 +108,51 @@ The teacher will be presented with options to view any unread snippets, question
 	+ substantive contributions count toward the participation grade
 	+ either way, the item will no longer be marked "new" once moderated
 
-#### import a course roster
+#### Teachers and Students: search for snippets by keyword, language
 
-#### get a student-participation report
++ see an index of all related snippets (posted by anyone)
++ click on a snippet to see more detail
+  + view challenge description
+  + view all comments
 
-+ counts of (substantive) nippets, questions, and comments 
+#### Teachers and Students: search for challenges by keyword, language
 
++ see an index of all relevant challenges 
++ click on a challenge to see more detail
+  + view all related questions/snippets/comments
 
-## Student
-
-### must log in using their university email username
-
-+ the username must appear on the instructor's uploaded roster
-
-### search, question, answer, comment
-
-#### answer a challenge
-
-+ post a code snippet
-+ indicate the language used
-
-#### edit posted snippet
-
-+ edit their own posted code snippets (required to comment/explain)
-
-#### edit posted snippet (if no comments attached)
-
-+ cannot delete their own code snippets unless no comments 
-
-#### ask questions about the challenge
-
-+ ask a question about the challenge 
-+ view all other questions
-+ edit their own question 
-+ delete their own question
-
-#### comment on code snippets
-
-+ post a comment about a specific code snippet
-+ edit their own comments
-+ delete their own comments
-
-#### view their own snippets
+#### Students: view their own snippets
 
 + first view an index of all their snippets
 + then, can view individual snippet with a view as follows:
   + display the challenge
-  + view their own code snippet(s) for the challenge
+  + view the code snippet
   + view all comments associated with their snippet
     + teacher comments
     + student comments
-    
-## Teacher and students can search
 
-### search by keyword(s) and/or language(s)
+#### Teacher: get a participation report
 
-#### view snippets by keyword(s) and/or language(s)
++ obtain a report of listing participation info for each student
+  + counts of "subtantial" questions, snippets, comments
+  + calculated participation score
 
-+ see an index of all related snippets (posted by anyone)
-+ click on a snippet and view details (including the challenge info) 
 
-#### view challenges by keyword(s) and/or language(s)
+#### Students: get a student-participation report
 
-+ see an index of all relevant challenges 
-+ click on a challenge and view all questions/snippets/comments
++ counts of (substantive) nippets, questions, and comments 
++ participation score based on the chosen grading scheme
 
-## Use anonymous posting
 
-+ student posts/comments will be anonymous 
-  + (student names hidden from other students)
-+ teacher's view will identify students on each code question/snippet/comment
+#### Teacher: delete a posted challenge
+
++ likely this will be very rarely used, if ever
+
++ this deletes all student code snippets
++ this deletes all student comments/questions
++ teacher will be prompted to ask if they are absolutely sure of the delete
+
+
+
+
 
